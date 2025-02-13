@@ -1,6 +1,10 @@
 # React Chessboard
 This is a game of chess built with ReactJS and boardgame.io library.
+
+- To start, clone or download and unzip, and run `npm install` to download dependencies
 - To play, just run `npm start`
+    - The package-lock.json was last rebuilt on 2025-02-12 with npm v10.9.2 and node v23.4.0 and uses the `--openssl-legacy-provider` hack in package.json. If `npm start` fails, try deleting package-lock.json, removing node_modules and running `npm install` again.
+- Pieces are moved by click, drag, release
 - If your King is in check, you will see a message at the top of the screen
 - invalid moves/moves that put your king in check will not be allowed
 - If checkmate, the game will end
@@ -15,7 +19,7 @@ Features to add:
 - add rule for 'castling' rook and king
 - add rule for pawn reaching other end of board
 
-
+Create React App boilerplate follows:
 
 ## Getting Started with Create React App
 
